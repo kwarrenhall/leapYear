@@ -18,4 +18,8 @@ describe('leapYear', function() {
   it("is false for words", function () {
     expect(september()).to.equal(false);
   })
+
+  it("is false for no entry", function() {
+    expect(noentry()).to.equal(false);
+  })
 });

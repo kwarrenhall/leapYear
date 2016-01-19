@@ -9,3 +9,6 @@ var leapYear = function(year) {
 var september = function() {
   return false;
 };
+var noentry = function() {
+  return false;
+}
