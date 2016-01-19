@@ -16,10 +16,10 @@ describe('leapYear', function() {
   });
 
   it("is false for words", function () {
-    expect(september()).to.equal(false);
+    expect(leapYear("september")).to.equal(false);
   })
 
-  it("is false for no entry", function() {
-    expect(noentry()).to.equal(false);
+  it("is false for not a number", function() {
+    expect(leapYear(NaN)).to.equal(false);
   })
 });
